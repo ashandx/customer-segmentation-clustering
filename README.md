@@ -22,8 +22,9 @@ _TBC once the clustering notebook has real output._
 `data/online_retail_II.xlsx` is the [UCI Online Retail II dataset](https://archive.ics.uci.edu/dataset/502/online+retail+ii):
 transactions for a UK-based online gift retailer, roughly 1 million rows across two sheets
 (2009-2010 and 2010-2011), fields Invoice, StockCode, Description, Quantity, InvoiceDate,
-Price, Customer ID, Country. Download it from UCI and drop it into `data/` yourself.
-[decide: commit the file, matching Projects 1 and 2, or gitignore it as a ~45 MB binary]
+Price, Customer ID, Country. The file is committed to the repo as-is (45.6 MB, under
+GitHub's 50 MB warning threshold), matching Projects 1 and 2, so there is nothing to
+download. See the UCI page above for the source and licence terms.
 
 ## Approach
 
