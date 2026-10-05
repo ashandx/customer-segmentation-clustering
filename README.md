@@ -31,8 +31,8 @@ Per-customer RFM aggregation from the raw transaction log, then StandardScaler, 
 K-Means with the number of clusters chosen from an elbow plot and silhouette scores over
 k = 2 to 10. PCA to two components for a cluster scatter plot, cluster profiling by mean
 R/F/M, and a named persona per segment. EDA and RFM construction live in
-`notebooks/01_eda.ipynb`; scaling, clustering, and profiling in
-`notebooks/02_clustering.ipynb`.
+`notebooks/eda.ipynb`; scaling, clustering, and profiling in
+`notebooks/clustering.ipynb`.
 
 ## Results
 
@@ -52,8 +52,8 @@ pip install -r requirements.txt
 jupyter notebook notebooks/
 ```
 
-Two notebooks, run top to bottom: `01_eda.ipynb` (cleaning, EDA, RFM feature engineering)
-then `02_clustering.ipynb` (re-runs the RFM build at the top since notebooks do not share
+Two notebooks, run top to bottom: `eda.ipynb` (cleaning, EDA, RFM feature engineering)
+then `clustering.ipynb` (re-runs the RFM build at the top since notebooks do not share
 kernel state, then scaling, K-Means, PCA, profiling).
 
 ## Known limitations
