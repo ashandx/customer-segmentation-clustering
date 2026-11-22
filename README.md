@@ -59,4 +59,6 @@ kernel state, then scaling, K-Means, PCA, profiling).
 
 ## Known limitations
 
-_TBC._
+- 35 customers (0.6%) with zero or negative net spend were clipped to zero before the log
+  transform, so a customer at -£10,954 is treated the same as one at £0. Their combined net
+  spend is -£31,600.
